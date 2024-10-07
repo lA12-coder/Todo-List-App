@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import { AppContext } from '../../App'
 export function TodoCard({children,id}) {
   const { handleDeleteTodo, handleEditTodo } = AppContext()
-  const edit = () => {}
   return (
     <li className="todoItem">
       {children}
