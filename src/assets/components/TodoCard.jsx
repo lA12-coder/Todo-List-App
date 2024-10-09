@@ -7,12 +7,12 @@ export function TodoCard({children,id}) {
       {children}
       <div className="actionsContainer">
         <img
-          src="public/images/pencil-fill.svg"
+          src="./images/pencil-fill.svg"
           alt="edit"
           onClick={() => handleEditTodo(id)}
         />
         <img
-          src="public/images/trash.svg"
+          src="./images/trash.svg"
           alt="delete"
           onClick={() => handleDeleteTodo(id)}
         />
